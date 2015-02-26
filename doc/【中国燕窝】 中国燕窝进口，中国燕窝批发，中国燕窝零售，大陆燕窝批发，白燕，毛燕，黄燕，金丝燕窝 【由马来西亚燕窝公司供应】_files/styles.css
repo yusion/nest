@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+}
+
+/* ### TAGS */
+body {
+	font-size: 12px;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ### WRAPPER AND COLUMNS */
+.wrapper {
+	width: 780px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.leftcolumn {
+	display: block;
+	width: 190px;
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	height: auto;
+}
+
+.rightcolumn {
+	display: block;
+	float: left;
+	width: 550px;
+	min-height: 152px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+
+/* ### HEADERS AND FOOTERS */
+.header {
+ 	margin: 30px 0px 10px 0px;
+	min-height: 118px;
+}
+.footer {
+	padding: 2px;
+	border: 1px dotted #CCCCCC;
+	width: 65%;
+}
+
+/* ### NAVIGATION BARS */
+.navbar {
+	padding: 5px;
+	border: 1px dotted #CCCCCC;
+	font-size: 100%;
+}
+
+/* ### USER-DEFINED CLASSES */
+.title {
+	font-size: 24px;
+	color: #A37343;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #BF9264;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.title02 {
+	font-size: 120%;
+	color: #AB103A;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.title03 {
+	font-size: 12px;
+	color: #A6479C;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #7B3574;
+}
+
+.font80pct {
+	font-size: 80%;
+}
+.font105pct {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 105%;
+}
+.font-superscript {
+	font-size: 50%;
+}
+
+
+
+
+.price-bold {
+	font-weight: bold;
+	color: #AF0C0C;
+	font-size: 95%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.price-bold-big1 {
+	font-weight: bold;
+	color: #AF0C0C;
+	font-size: 120%;
+}
+
+.price-strikethrough {
+	font-weight: normal;
+	color: #000000;
+	font-size: 95%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: line-through;
+}
+.box-greyborder {
+	padding: 2px;
+	margin: 5px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.font-specialremarks {
+	font-weight: bold;
+	color: #FF0000;
+	font-size: 110%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.font110pct {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 110%;
+}
+
+.font130pct {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 130%;
+}
+
+.font-specialremarks-big {
+	font-weight: bold;
+	color: #FF0000;
+	font-size: 180%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
